@@ -8,7 +8,7 @@ namespace Volo.Abp.Application.Dtos
     /// </summary>
     [Serializable]
     public class DetailedPagedResultDto<T> : PagedResultDto<T>, IDetailedPagedResult<T>
-    {
+    {//
         /// <summary>
         /// Current page number
         /// </summary>
