@@ -12,10 +12,15 @@
 
         public static class Pages
         {
-            public const string UrlAlreadyExist = "CmsKit:Page:0001";
+            public const string SlugAlreadyExist = "CmsKit:Page:0001";
         }
 
         public static class Blogs
+        {
+            public const string SlugAlreadyExists = "CmsKit:Blog:0001";
+        }
+        
+        public static class BlogPosts
         {
             public const string SlugAlreadyExist = "CmsKit:BlogPost:0001";
         }
